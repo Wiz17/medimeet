@@ -120,3 +120,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.gredient{
+  @apply bg-gradient-to-b from-emerald-500 to-teal-400 bg-clip-text text-transparent
+}
