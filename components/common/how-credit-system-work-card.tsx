@@ -12,18 +12,18 @@ const CreditSystemWorkCard = () => {
           </span>
         </CardHeader>
         <CardContent className="flex flex-col gap-3">
-  {creditBenefits.map((data, index) => (
-    <div key={index} className="flex gap-3 items-start">
-      <div className="bg-emerald-800/30 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
-        <Check className="text-emerald-500 w-4 h-4" />
-      </div>
-      <span 
-        className="ml-2"
-        dangerouslySetInnerHTML={{ __html: data }}
-      />
-    </div>
-  ))}
-</CardContent>
+          {creditBenefits.map((data, index) => (
+            <div key={index} className="flex gap-3 items-start">
+              <div className="bg-emerald-800/30 rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0">
+                <Check className="text-emerald-500 w-4 h-4" />
+              </div>
+              <span
+                className="ml-2"
+                dangerouslySetInnerHTML={{ __html: data }}
+              />
+            </div>
+          ))}
+        </CardContent>
       </Card>
     </>
   );

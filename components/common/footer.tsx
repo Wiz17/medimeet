@@ -4,7 +4,7 @@ import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-background border-t border-muted py-8 mt-16">
+    <footer className="bg-background  py-8">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-6 px-4">
         <div className="flex items-center gap-3">
           <Image src="/logo.png" alt="Medimeet Logo" width={100} height={40} className="rounded" />
